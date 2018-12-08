@@ -11,7 +11,10 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "awesome-mask": "^1.1.1",
+    "axios": "^0.18.0",
+    "vue-select": "^2.5.1",
+    "vue-select2": "^0.2.6"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

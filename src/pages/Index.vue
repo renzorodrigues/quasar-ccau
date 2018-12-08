@@ -1,6 +1,6 @@
 <template>
-  <q-page class="container">
-    <h1>Atendimento</h1>
+  <q-page padding>
+    <h2>Index</h2>
   </q-page>
 </template>
 

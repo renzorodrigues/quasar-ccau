@@ -11,15 +11,15 @@ module.exports = function (ctx) {
     ],
     extras: [
       ctx.theme.mat ? 'roboto-font' : null,
-      'material-icons' // optional, you are not bound to it
-      // 'ionicons',
-      // 'mdi',
-      // 'fontawesome'
+      'material-icons', // optional, you are not bound to it
+      'ionicons',
+      'mdi',
+      'fontawesome'
     ],
     supportIE: true,
     build: {
       scopeHoisting: true,
-      // vueRouterMode: 'history',
+      vueRouterMode: 'history',
       // vueCompiler: true,
       // gzip: true,
       // analyze: true,
@@ -55,7 +55,15 @@ module.exports = function (ctx) {
         'QItem',
         'QItemMain',
         'QItemSide',
-        'QTable'
+        'QTable',
+        'QSearch',
+        'QSelect',
+        'QField',
+        'QInput',
+        'QChipsInput',
+        'QDatetime',
+        'QSlideTransition',
+        'QOptionGroup'
       ],
       directives: [
         'Ripple'
@@ -64,9 +72,10 @@ module.exports = function (ctx) {
       plugins: [
         'Notify',
         'Loading'
-      ]
+      ],
       // iconSet: ctx.theme.mat ? 'material-icons' : 'ionicons'
-      // i18n: 'de' // Quasar language
+      i18n: 'pt-br', // Quasar language
+      iconSet: 'ionicons'
     },
     // animations: 'all' --- includes all animations
     animations: [],

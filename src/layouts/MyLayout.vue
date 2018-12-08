@@ -41,7 +41,7 @@
           <q-item-side icon="assignment" />
           <q-item-main label="Avaliações" sublabel="Lista de avaliações" />
         </q-item>
-        <q-item to="/cadastro">
+        <q-item to="/cad_atendido">
           <q-item-side icon="person_add" />
           <q-item-main label="Cadastro" sublabel="Cadastro de atendidos" />
         </q-item>
